@@ -20,6 +20,7 @@
     "gulp-protractor": "~2.3.0",
     "gulp-tslint": "~5.0.0",
     "gulp-typedoc": "~2.0.0",
+    "http-proxy-middleware": "0.17.1",
     "jspm": "~0.16.33",
     "karma": "~0.13.22",
     "karma-chai-sinon": "~0.1.5",
@@ -54,9 +55,13 @@
     "configFile": "jspm.conf.js",
     "dependencies": {
       "angular": "github:angular/bower-angular@^1.5.3",
+      "angular-bootstrap": "github:angular-ui/bootstrap-bower@^2.0.1",
+      "angular-local-storage": "npm:angular-local-storage@^0.2.7",
       "angular-toastr": "github:Foxandxss/angular-toastr@^1.7.0",
       "angular-ui-router": "github:angular-ui/ui-router@^0.2.18",
-      "bootstrap": "github:twbs/bootstrap@^3.3.6"
+      "bootstrap": "github:twbs/bootstrap@^3.3.6",
+      "http-proxy": "npm:http-proxy@^1.14.0",
+      "patternfly": "npm:patternfly@^3.8.1"
     },
     "devDependencies": {
       "angular-mocks": "github:angular/bower-angular-mocks@^1.5.3",

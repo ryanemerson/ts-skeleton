@@ -1,18 +1,18 @@
 import {App} from "./App";
-import "./module/toast/Toast";
-import "./module/dashboard/Dashboard";
-import "./module/menu/Menu";
+import "./services/authentication/AuthenticationService";
+import "./services/dmr/DmrService";
+import "./services/launchtype/LaunchTypeService";
 import "./module/auth/Auth";
-import "./services/EndpointService";
+import "./module/clusters/Clusters";
 import "./style/style.css!";
 
 App.element(document).ready(() => {
   App.bootstrap(document, [
     "app",
-    "app.dashboard",
     "app.auth",
-    "app.toast",
-    "app.services",
-    "app.menu"
+    "app.clusters",
+    "app.services.authentication",
+    "app.services.dmr",
+    "app.services.launchtype"
   ]);
 });
